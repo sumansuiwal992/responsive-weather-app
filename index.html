@@ -10,6 +10,33 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="app">
+
+  <header class="app-header">
+    <div class="brand">
+      <span class="brand-icon">🌦️</span>
+      <h1>Weather</h1>
+    </div>
+    <button class="theme-toggle" id="themeToggle" type="button">☀️ Light</button>
+  </header>
+
+  <section class="search-section">
+    <div class="search-row">
+      <input type="text" id="cityInput" placeholder="Search for a city...">
+      <button id="searchBtn" type="button">Search</button>
+    </div>
+
+  <button class="location-btn"id="locationBtn"type="button"><span>📍</span> Use My Current Location
+  </button>
+  </section>
+
+  section class="recent-section">
+    <p class="recent-label" id="recentLabel"></p>
+    <div class="recent-cities" id="recentCities"></div>
+  </section>
+
+  <div class="status hidden" id="statusText"></div>
+
    <!-- Our own custom JS file, loaded at the end so DOM elements exist before script runs -->
 <script src="script.js"></script>
 
