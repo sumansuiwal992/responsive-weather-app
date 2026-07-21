@@ -30,12 +30,21 @@
   </button>
   </section>
 
-  section class="recent-section">
+  <section class="recent-section">
     <p class="recent-label" id="recentLabel"></p>
-    <div class="recent-cities" id="recentCities"></div>
+       <div class="recent-cities" id="recentCities"></div>
   </section>
 
   <div class="status hidden" id="statusText"></div>
+
+  <section class="weather-card" id="weatherCard">
+    <div class="weather-main">
+      <div>
+        <p class="city-name" id="cityName">-</p>
+        <p class="condition" id="condition">-</p>
+      </div>
+      <div class="weather-icon" id="weatherIcon">☀️</div>
+    </div>
 
    <!-- Our own custom JS file, loaded at the end so DOM elements exist before script runs -->
 <script src="script.js"></script>
