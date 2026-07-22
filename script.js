@@ -1,5 +1,5 @@
 // ⚠️ STEP 1: Apni API key yaha paste karo (OpenWeatherMap se free milegi)
-const API_KEY = "YOUR_API_KEY_HERE";
+const API_KEY = "02cc6a02b1d5cde0fba04e08b53d6846";
 
 const cityInput = document.getElementById('cityInput');
 const searchBtn = document.getElementById('searchBtn');
