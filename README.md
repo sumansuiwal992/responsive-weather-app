@@ -5,7 +5,7 @@ A responsive weather application built as part of the internSpark JavaScript Min
 
 ## 🔗 Live Demo
 
-https://sumansuiwal992.github.io/weather-app/
+https://sumansuiwal992.github.io/responsive-weather-app/
 
 ## 📌 About
 
