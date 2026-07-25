@@ -41,7 +41,7 @@ weather-app/
 
 1. Clone the repository
 
-   git clone https://github.com/sumansuiwal992/weather-app.git
+ https://github.com/sumansuiwal992/responsive-weather-app.git
  
 2. Open `script.js` and replace the placeholder with your own OpenWeatherMap API key:
    ```
