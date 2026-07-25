@@ -40,9 +40,9 @@ weather-app/
 ## 🚀 Run Locally
 
 1. Clone the repository
-   ```
+
    git clone https://github.com/sumansuiwal992/weather-app.git
-   ```
+ 
 2. Open `script.js` and replace the placeholder with your own OpenWeatherMap API key:
    ```
    const API_KEY = "your_api_key_here";
